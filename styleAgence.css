@@ -1,13 +1,19 @@
-@font-face 
-{
-    font-family: 'Raleway-VariableFont_wght';
-    src: url('Raleway-VariableFont_wght.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;700&display=swap');
+
+@media screen and (min-width: 992px) and (max-width: 1400px){
+
 
 body
 {
-    margin: 0px 50px 0px 50px;
-    font-family: 'Raleway-VariableFont_wght';
+    margin-top: 0px;
+    font-family: 'Raleway';
+}
+
+#containerAll
+{
+    width: 1400px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #imgTitre
@@ -18,16 +24,18 @@ body
 
 h1
 {
-    font-size: 20px;
+    font-weight: 900;
 }
 
 #loc
 {
+    border-radius: 15px 0px 0px 15px;
     padding: 16px 18px 16px 18px;
     width: 14px;
     height: 18px;
     font-size: 20px;
     color: black;
+    background-color: #F2F2F2;
 }
 
 i
@@ -36,22 +44,51 @@ i
     font-size: 10px;
 }
 
+
+
 #starg
 {
     color: #F2F2F2;
     font-size: 10px;
 }
 
-#ifiltres
+.fa-money-bill-wave
 {
     padding-right: 10px;
     font-size: 20px;
     color: #0065FC;
 }
 
+.fa-person
+{
+    padding-right: 10px;
+    font-size: 24px;
+    color: #0065FC;
+}
+
+.fa-heart
+{
+    padding-right: 10px;
+    font-size: 20px;
+    color: #0065FC;
+}
+
+.fa-dog
+{
+    padding-right: 10px;
+    font-size: 20px;
+    color: #0065FC;
+}
+
+.fa-star
+{
+    font-size: 11px;
+}
+
 #info
 {
-    padding: 2px 5px 2px 5px;
+    padding: 4px 8px 4px 8px;
+    margin-right: 10px;
     font-size: 10px;
     border: 1px solid #D9D9D9;
     border-radius: 50%;
@@ -74,6 +111,7 @@ nav
 
 nav ul
 {
+    margin: 0px;
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -115,24 +153,27 @@ h1
     display: flex;
     flex-direction: row;
     height: 49px;
-    width: 332px;
-    background-color: #F2F2F2;
     align-items: center;
 }
 
 #ville
 {
     height: 49px;
-    border-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    width: 230px;
+    font-weight: 900;
+    font-size: 18px;
+    padding-left: 10px;
 }
 
 #rechercher
 {
-    font-family: 'Raleway-VariableFont_wght';
+    font-family: 'Raleway';
     display: flex;
     align-items: center;
     padding: 15px 16px 15px 16px;
     font-size: 16px;
+    font-weight: 900;
     border-width: 0px;
     color: white;
     background-color: #0065FC;
@@ -140,6 +181,7 @@ h1
     height: 49px;
     border-radius: 0px 15px 15px 0px;
 }
+
 
 button:hover
 {
@@ -149,6 +191,7 @@ button:hover
 #filtres
 {
     width: 950px;
+    font-weight: 900;
     align-items: center;
     margin-top: 30px;
     display: flex;
@@ -156,15 +199,21 @@ button:hover
     justify-content: space-between;
 }
 
+.pdevice
+{
+    display: flex;
+    align-items: center;
+}
+
 button
 {
-    font-family: 'Raleway-VariableFont_wght';
+    font-family: 'Raleway';
     font-size: 17px;
     display: flex;
     align-items: center;
     padding: 4px 20px 4px 20px;
     width: auto;
-    height: 40px;
+    height: 50px;
     border-radius: 30px;
     border-style: solid;
     border-color: #F2F2F2;
@@ -186,7 +235,7 @@ button
     width: 800px;
 }
 
-#Marseille
+#marseille
 {
     padding-left: 40px;
     padding-right: 40px;
@@ -200,13 +249,13 @@ button
     height: 626px;
 }
 
-#cardh a
+.cardh a
 {
     text-decoration: none;
     color: black;
 }
 
-#cardh
+.cardh
 {
     font-size: 15px;
     border-radius: 20px;
@@ -218,7 +267,7 @@ button
 
 }
 
-#imgh
+.imgh
 {
     object-fit: cover;
     padding: 5px 5px 0px 5px;
@@ -227,7 +276,7 @@ button
     border-radius: 20px 20px 0px 0px ;
 }
 
-#containerh
+.containerh
 {
     padding-top: 10px;
     line-height: 5px;
@@ -236,7 +285,6 @@ button
     flex-wrap: nowrap;
     height: 50px;
     padding-left: 20px;
-
 }
 
 #aff
@@ -281,7 +329,7 @@ button
     align-self: flex-start;
 }
 
-#imglpp
+.imglpp
 {
     object-fit: cover;
     padding: 5px 0px 5px 5px;
@@ -290,7 +338,7 @@ button
     border-radius: 20px 0px 0px 20px;
 }
 
-#cardlpp
+.cardlpp
 {
     align-content: center;
     border-radius: 20px;
@@ -303,18 +351,24 @@ button
     box-shadow: 0 4px 8px 0 #D1D1D1;
 }
 
-#containerlpp
+.titreCardLpp
 {
+    line-height: 15px;
+}
+
+.containerlpp
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-left: 20px;
     font-size: 15px;
     margin-top: 20px; 
-    line-height: 5px;
-    line-height: 100%;
 }
 
-#starlpp
+.starlpp
 {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 #activite a
@@ -330,27 +384,26 @@ button
     justify-content: space-between;
 }
 
-#cardactivite 
+.cardactivite 
 {
+    display: flex;
+    flex-direction: column;
     width: 302px;
     height: 445px;
     box-shadow: 0 4px 8px 0 #F2F2F2;
     border-radius: 20px;
 }
 
-#imgactivite
+.imgactivite
 {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px ;
-    height: 389px;
+    height: 383.25px;
 }
 
-#container 
+.container 
 {
-    display: flex ;
-    align-content: center;
     padding-left: 20px;
-    height: 56px;
 }
 
 
@@ -375,18 +428,18 @@ footer ul
     padding-left: 0;
     list-style-type: none;
 }
+}
 
-@media screen and (max-width:1024px){
+@media screen and (min-width: 768px) and (max-width: 991px){
 
+#containerAll
+{
+    width: 991px;
+}
 
 #bloc
 {
     display: none;
-}
-
-body
-{
-    margin: 0px 73px 0px 73px;
 }
 
 
@@ -396,14 +449,7 @@ body
     justify-content: space-around;
 }
 
-#bloc
-{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 50px;
-}
-
-#Marseille
+#marseille
 {
     width: 90%;
     height: 626px;
@@ -427,20 +473,20 @@ body
     border-radius: 20px;
 }
 
-#cardlpp
+.cardlpp
 {
     margin-bottom: 48px;
     width: 252px;
     height: 144px;
 }
 
-#imglpp
+.imglpp
 {
     width: 96px;
     height: 134px;
 }
 
-#containerlpp
+.containerlpp
 {
     margin-left: 10px;
     font-size: 15px;
@@ -448,20 +494,20 @@ body
     line-height: 15px;
 }
 
-#cardactivite 
+.cardactivite 
 {
     width: 182px;
     height: 267px;
 }
 
-#container
+.container
 {
     font-size: 18px;
     padding-left: 18px;
     padding-right: 20px;
 }
 
-#imgactivite
+.imgactivite
 {
     height: 211px;
     width: 182px;
@@ -475,7 +521,13 @@ footer
 
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:0px){
+
+
+#containerAll
+{
+    width: 100px;
+}
 
 body
 {
@@ -517,7 +569,7 @@ h1
     font-size: 22px;
 }
 
-#pdevice
+.pdevice
 {
     margin-left: 20px;
 }
@@ -662,6 +714,7 @@ button
     width: 127px;
     height: 134px;
 }
+
 
 
 #containerlpp
