@@ -10,6 +10,12 @@ body
     font-family: 'Raleway-VariableFont_wght';
 }
 
+#imgTitre
+{
+    width: 61px;
+    height: 19px;
+}
+
 h1
 {
     font-size: 20px;
