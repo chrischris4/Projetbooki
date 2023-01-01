@@ -11,6 +11,7 @@ body
 
 #containerAll
 {
+    font-family: 'Raleway';
     width: 1400px;
     padding-left: 50px;
     padding-right: 50px;
@@ -432,356 +433,963 @@ footer ul
 
 @media screen and (min-width: 768px) and (max-width: 991px){
 
-#containerAll
-{
-    width: 991px;
-}
 
-#bloc
-{
-    display: none;
-}
-
-
-#filtres
-{
-    width: 850px;
-    justify-content: space-around;
-}
-
-#marseille
-{
-    width: 90%;
-    height: 626px;
-    margin-bottom: 50px;
-}
-
-#titrelpp
-{
-    padding-left: 0px;
-    width: 800px;
-}
-
-#lpp
-{
-    padding: 0px 40px 0px 40px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 90%;
-    height: 278px;
-    border-radius: 20px;
-}
-
-.cardlpp
-{
-    margin-bottom: 48px;
-    width: 252px;
-    height: 144px;
-}
-
-.imglpp
-{
-    width: 96px;
-    height: 134px;
-}
-
-.containerlpp
-{
-    margin-left: 10px;
-    font-size: 15px;
-    margin-top: 20px; 
-    line-height: 15px;
-}
-
-.cardactivite 
-{
-    width: 182px;
-    height: 267px;
-}
-
-.container
-{
-    font-size: 18px;
-    padding-left: 18px;
-    padding-right: 20px;
-}
-
-.imgactivite
-{
-    height: 211px;
-    width: 182px;
-}
-
-footer
-{
-    margin-top: 69px;
-    padding: 45px 173.18px 58px 70px;
-}
-
-}
-
-@media screen and (max-width:0px){
-
-
-#containerAll
-{
-    width: 100px;
-}
-
-body
-{
-    margin: 0px 0px 0px 0px;
-    width: 375px;
-}
-
-header
-{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-
-nav a
-{
-    margin-top: 48.56px;
-    padding: 0px 0px 23px 0px;
-    width: 187.5px;
-    border-bottom: #F2F2F2 solid 3px;
-}
-
-nav a:hover
-{
-    border-top: none;
-    border-bottom: solid #0065FC 3px;
-}
-
-
-
-h1
-{
-    width: 80%;
-    margin-left: 20px;
-    font-size: 22px;
-}
-
-.pdevice
-{
-    margin-left: 20px;
-}
-
-#rechercher
-{
-    display: none;
-}
-
-#iglass
-{
-    color: white;
-    font-size: 20px;
-}
-
-#glass
-{
-    display: flex;
-    align-items: center;
-    padding: 15px 16px 15px 16px;
-    font-size: 16px;
-    border-width: 0px;
-    color: white;
-    background-color: #0065FC;
-    width: 49px;
-    height: 49px;
-    border-radius: 0px 15px 15px 0px;
-}
-
-#ville
-{
-    height: 49px;
-    width: 232px;
-}
-
-#search
-{
-    width: 49px;
-    height: 49px;
-}
-
-#location
-{
-    display: flex;
-    flex-direction: row;
-    width: 332px;
-    height: 49px;
-    margin-left: 20px;
-    border-radius: 15px 15px 15px 15px;
-}
-
-#titrefiltres
-{
-    display: flex;
-    align-items: flex-start;
-    width: 330px;
-}
-
-#ifiltres
-{
-    padding-right: 5px;
-    padding-left: 13px;
-    font-size: 15px;
-}
-
-#filtres
-{
-    width: 370px;
-    height: 200px;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-top: 10px;
-}
-
-button
-{
-    font-size: 11px;
-    padding: 4px 20px 4px 5px;
-    width: 160px;
-    border-radius: 25px;
-}
-
-#bloc
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 50px;
-    margin-left: 0px;
-}
-
-#titreh
-{
-    width: 370px;
-}
-
-#Marseille
-{
-    order: 2;
-    margin-left: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-    border-radius: 0px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 335px;
-    height: 1299px;
-}
-
-#aff
-{
-    display: none;
-}
-
-#ilpp
-{
-    padding-right: 20px;
-}
-
-#titrelpp
-{
-    padding-left: 20px;
-    width: 370px;
-}
-
-#lpp
-{
-    padding: 0px 0px 47px 0px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 580px;
-    border-radius: 0px;
-}
-
-#imglpp
-{
-    width: 127px;
-    height: 134px;
-}
+    body
+    {
+        margin-right: 0px;
+        margin-top: 0px;
+        font-family: 'Raleway';
+    }
+    
+    #containerAll
+    {
+        width: 991px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    #imgTitre
+    {
+        width: 61px;
+        height: 19px;
+    }
+    
+    h1
+    {
+        font-weight: 900;
+    }
+    
+    #loc
+    {
+        border-radius: 15px 0px 0px 15px;
+        padding: 16px 18px 16px 18px;
+        width: 14px;
+        height: 18px;
+        font-size: 20px;
+        color: black;
+        background-color: #F2F2F2;
+    }
+    
+    i
+    {
+        color: #0065FC;
+        font-size: 10px;
+    }
+    
+    
+    
+    #starg
+    {
+        color: #F2F2F2;
+        font-size: 10px;
+    }
+    
+    .fa-money-bill-wave
+    {
+        padding-right: 10px;
+        font-size: 20px;
+        color: #0065FC;
+    }
+    
+    .fa-person
+    {
+        padding-right: 10px;
+        font-size: 24px;
+        color: #0065FC;
+    }
+    
+    .fa-heart
+    {
+        padding-right: 10px;
+        font-size: 20px;
+        color: #0065FC;
+    }
+    
+    .fa-dog
+    {
+        padding-right: 10px;
+        font-size: 20px;
+        color: #0065FC;
+    }
+    
+    .fa-star
+    {
+        font-size: 11px;
+    }
+    
+    #info
+    {
+        padding: 4px 8px 4px 8px;
+        margin-right: 10px;
+        font-size: 10px;
+        border: 1px solid #D9D9D9;
+        border-radius: 50%;
+    }
+    
+    header
+    {
+        display: flex;
+        justify-content: space-between ;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    
+    nav
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    
+    nav ul
+    {
+        margin: 0px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    nav a
+    {
+        border-top: white solid 3px;
+        display: flex;
+        justify-content: center;
+        width: 162px;
+        font-size: 16px;
+        padding: 44px 0px 0px 0px;
+        color: black;
+        text-decoration: none;
+    }
+    
+    nav a:hover
+    {
+        border-top: solid #0065FC 3px;
+        color: #0065FC;
+    }
+    
+    h1
+    {
+        font-size: 22px;
+    }
+    
+    #glass
+    {
+        display: none;
+    }
+    
+    #location
+    {
+        border-top-width: 0px;
+        border-radius: 15px 0px 0px 15px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        height: 49px;
+        align-items: center;
+    }
+    
+    #ville
+    {
+        height: 49px;
+        border: 1px solid #F2F2F2;
+        width: 230px;
+        font-weight: 900;
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    
+    #rechercher
+    {
+        font-family: 'Raleway';
+        display: flex;
+        align-items: center;
+        padding: 15px 16px 15px 16px;
+        font-size: 16px;
+        font-weight: 900;
+        border-width: 0px;
+        color: white;
+        background-color: #0065FC;
+        width: 132px;
+        height: 49px;
+        border-radius: 0px 15px 15px 0px;
+    }
+    
+    
+    button:hover
+    {
+        background-color: #DEEBFF;
+    }
+    
+    #filtres
+    {
+        width: 800px;
+        font-weight: 900;
+        align-items: center;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .pdevice
+    {
+        display: flex;
+        align-items: center;
+    }
+    
+    button
+    {
+        font-family: 'Raleway';
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        padding: 4px 20px 4px 20px;
+        width: auto;
+        height: 50px;
+        border-radius: 30px;
+        border-style: solid;
+        border-color: #F2F2F2;
+        background-color: white;
+    }
+    
+    
+    #titreh
+    {
+        display: flex;
+        align-items: flex-start;
+        width: 800px;
+    }
+    
+    #bloc
+    {
+        width: 880px;
+    }
 
 
+    #marseille
+    {
+        margin-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-radius: 20px;
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 880px;
+        height: 626px;
+    }
+    
+    .cardh a
+    {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .cardh
+    {
+        font-size: 15px;
+        border-radius: 20px;
+        width: 246px;
+        height: 199px;
+        background-color: white;
+        margin: 20px 0px 20px 0px;
+        box-shadow: 0 4px 8px 0 #d1d1d1;
+    
+    }
+    
+    .imgh
+    {
+        object-fit: cover;
+        padding: 5px 5px 0px 5px;
+        width: 236px;
+        height: 124px;
+        border-radius: 20px 20px 0px 0px ;
+    }
+    
+    .containerh
+    {
+        padding-top: 10px;
+        line-height: 5px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 50px;
+        padding-left: 20px;
+    }
+    
+    #aff
+    {
+        margin-bottom: 46px;
+        font-size: 18px;
+        width: 800px;
+    }
+    
+    #lpp a
+    {
+        text-decoration: none;
+        color: black;
+    }
+    
 
-#containerlpp
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-#cardlpp
-{
-    margin-left: 20px;
-    width: 334px;
-    height: 144px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
 
 
-#cardh
-{
-    font-size: 15px;
-    border-radius: 20px;
-    width: 333px;
-    height: 199px;
-    margin: 0px 0px 0px 0px;
-}
 
-#imgh
-{
-    width: 325px;
-    height: 124px;
-}
+    #lpp
+    {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row ;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 880px;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        padding-bottom: 50px;
+    }
+    
+    #ilpp
+    {
+        padding-top: 27px;
+        font-size: 18px;
+    }
+    
 
-#titreactivite
-{
-    padding-left: 22px;
-    width: 212px;
-}
+    #titrelpp
+    {
+        width: 880px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+    }
+    
+    .imglpp
+    {
+        object-fit: cover;
+        padding: 5px 0px 5px 5px;
+        width: 96px;
+        height: 134px;
+        border-radius: 20px 0px 0px 20px;
+    }
+    
+    .cardlpp
+    {
+        align-content: center;
+        border-radius: 20px;
+        background-color: white;
+        width: 252px;
+        height: 144px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        box-shadow: 0 4px 8px 0 #D1D1D1;
+    }
+    
+    .titreCardLpp
+    {
+        line-height: 15px;
+    }
+    
+    .containerlpp
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 20px;
+        padding-right: 20px;
+        font-size: 15px;
+        margin-top: 15px; 
+    }
+    
+    .starlpp
+    {
+        padding-bottom: 10px;
+    }
+    
+    #activite a
+    {
+        text-decoration: none;
+        color: black;
+    }
+    
+    #activite
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 880px;
+    }
+    
+    .cardactivite 
+    {
+        display: flex;
+        flex-direction: column;
+        width: 182px;
+        height: 267px;
+        box-shadow: 0 4px 8px 0 #F2F2F2;
+        border-radius: 20px;
+    }
+    
+    .imgactivite
+    {
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px ;
+        height: 211px;
+    }
+    
+    .container 
+    {
+        height: 56px;
+        padding-left: 20px;
+    }
+    
+    
+    footer a
+    {
+        text-decoration: none;
+        color: black;
+    }
+    
+    footer
+    {
+        height: 225px;
+        margin-top: 50px;
+        background-color: #F2F2F2;
+        display: flex;
+        justify-content: space-between;
+        padding: 45px 173px 58px 70px;
+    }
+    
+    footer ul
+    {
+        padding-left: 0;
+        list-style-type: none;
+    }
+    }
 
-#activite
-{
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-}
+@media screen and (min-width:0px) and (max-width:768px){
 
-#cardactivite 
-{
-    width: 334px;
-    height: 190px;
-    margin-bottom: 20px;
-}
 
-#imgactivite
-{
-    width: 324px;
-    height: 134px;
-}
+    body
+    {
+        margin-left: 0px;
+        margin-top: 0px;
+        font-family: 'Raleway';
+    }
+    
+    #containerAll
+    {
+        font-family: 'Raleway';
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 768px;
+    }
+    
+    #imgTitre
+    {
+        width: 61px;
+        height: 19px;
+    }
+    
+    h1
+    {
+        font-size: 30px;
+        font-weight: 900;
+    }
+    
+    #loc
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 64px;
+        height: 64px;
+        border-radius: 30px 0px 0px 30px;
+        font-size: 30px;
+        color: black;
+        background-color: #F2F2F2;
+    }
+    
+    i
+    {
+        color: #0065FC;
+        font-size: 10px;
+    }
+    
+    
+    
+    #starg
+    {
+        color: #F2F2F2;
+        font-size: 20px;
+    }
+    
+    .fa-money-bill-wave
+    {
+        padding-right: 10px;
+        font-size: 35px;
+        color: #0065FC;
+    }
+    
+    .fa-person
+    {
+        padding-right: 10px;
+        font-size: 38px;
+        color: #0065FC;
+    }
+    
+    .fa-heart
+    {
+        padding-right: 10px;
+        font-size: 35px;
+        color: #0065FC;
+    }
+    
+    .fa-dog
+    {
+        padding-right: 10px;
+        font-size: 35px;
+        color: #0065FC;
+    }
+    
+    .fa-star
+    {
+        font-size: 20px;
+    }
+    
+    #info
+    {
+        padding: 6px 14px 6px 14px;
+        margin-right: 20px;
+        font-size: 25px;
+        border: 1px solid #D9D9D9;
+        border-radius: 50%;
+    }
+    
+    header
+    {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    nav
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    
+    nav ul
+    {
+        padding-left: 0px;
+        margin: 0px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    nav a
+    {
+        margin-top: 48.56px;
+        border-top: white solid 3px;
+        display: flex;
+        justify-content: center;
+        width: 384px;
+        font-size: 30px;
+        padding: 0px 0px 23px 0px;
+        color: black;
+        text-decoration: none;
+        border-bottom: #F2F2F2 solid 3px;
+    }
+    
+    nav a:hover
+    {
+        border-top: none;
+        color: #0065FC;
+        border-bottom: solid #0065FC 3px;
+    }
+    
+    h1
+    {
+        width: 80%;
+        margin-left: 50px;
+        font-size: 40px;
+    }
+    
+    #location
+    {
+        border-top-width: 0px;
+        border-radius: 15px 15px 15px 15px;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: row;
+        height: 82px;
+        width: 668px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 50px;
 
-footer
-{
-    height: 501px;
-    display: flex;
-    flex-direction: column;
-    padding-left: 30px;
-}
+    }
+    
+    #ville
+    {
+        height: 94px;
+        border: 1px solid #F2F2F2;
+        width: 475px;
+        font-weight: 850;
+        font-size: 30px;
+        padding-left: 30px;
+    }
+    
+    #rechercher
+    {
+        font-family: 'Raleway';
+        display: flex;
+        align-items: center;
+        padding: 15px 16px 15px 16px;
+        font-size: 16px;
+        font-weight: 900;
+        border-width: 0px;
+        color: white;
+        background-color: #0065FC;
+        width: 200px;
+        height: 100px;
+        border-radius: 0px 15px 15px 0px;
+    }
+    
+    
+    button:hover
+    {
+        background-color: #DEEBFF;
+    }
+    
+    #titrefiltres
+    {
+        font-size: 30px;
+        padding-left: 50px;
+        display: flex;
+        align-items: flex-start;
+        width: 748px;
+    }
+    
+    #ifiltres
+    {
+        padding-right: 5px;
+        padding-left: 13px;
+        font-size: 30px;
+    }
 
+
+    #filtres
+    {
+        width: 100%;
+        height: 300px;
+        font-weight: 900;
+        align-items: center;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .pdevice
+    {
+        display: flex;
+        align-items: flex-start;
+        margin-left: 50px;
+        font-size: 35px;
+        font-weight: 450;
+    }
+    
+    #rechercher
+        {
+            display: none;
+        }
+
+        #iglass
+        {
+            color: white;
+            font-size: 30px;
+        }
+        
+        #glass
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-width: 0px;
+            color: white;
+            background-color: #0065FC;
+            width: 94px;
+            height: 94px;
+            border-radius: 0px 30px 30px 0px;
+        }
+
+    button
+    {
+        width: 300px;
+        font-family: 'Raleway';
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        padding: 4px 20px 4px 20px;
+        height: 75px;
+        border-radius: 50px;
+        border-style: solid;
+        border-color: #F2F2F2;
+        background-color: white;
+    }
+    
+    #bloc
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        margin-left: 0px;
+    }
+    
+
+    
+    #marseille
+    {
+        order: 2;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 0px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 2350px;
+    }
+
+    #titreh
+    {
+        font-size: 30px;
+        display: flex;
+        justify-content: flex-start;
+        width: 718px;
+        padding-left: 50px;
+    }
+    
+    .cardh a
+    {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .cardh
+    {
+        font-size: 15px;
+        border-radius: 20px;
+        width: 668px;
+        height: 350px;
+        background-color: white;
+        margin: 0px 0px 0px 0px;
+        box-shadow: 0 4px 8px 0 #d1d1d1;
+    
+    }
+    
+    .imgh
+    {
+        object-fit: cover;
+        padding: 5px 5px 0px 5px;
+        width: 658px;
+        height: 220px;
+        border-radius: 20px 20px 0px 0px ;
+    }
+    
+    .containerh
+    {
+        font-size: 25px;
+        padding-top: 20px;
+        line-height: 5px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 50px;
+        padding-left: 20px;
+    }
+    
+    #aff
+    {
+        display: none;
+        margin-bottom: 46px;
+        font-size: 18px;
+        width: 800px;
+    }
+    
+    #lpp a
+    {
+        text-decoration: none;
+        color: black;
+    }
+    
+    #lpp
+    {
+        margin-top: 30px;
+        padding: 0px 0px 47px 0px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column ;
+        align-items: center;
+        width: 100%;
+        background-color: #F2F2F2;
+        border-radius: 0px;
+        padding-bottom: 50px;
+    }
+    
+    #ilpp
+    {
+        padding-right: 20px;
+        padding-top: 50px;
+        font-size: 30px;
+    }
+    
+    #titrelpp
+    {
+        font-size: 30px;
+        padding-left: 50px;
+        width: 688px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        align-self: flex-start;
+    }
+    
+    .imglpp
+    {
+        object-fit: cover;
+        padding: 5px 0px 5px 5px;
+        width: 250px;
+        height: 278px;
+        border-radius: 20px 0px 0px 20px;
+    }
+    
+    .cardlpp
+    {
+        margin-bottom: 20px;
+        align-content: center;
+        border-radius: 20px;
+        background-color: white;
+        width: 668px;
+        height: 288px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        box-shadow: 0 4px 8px 0 #D1D1D1;
+    }
+    
+    .titreCardLpp
+    {
+        line-height: 30px;
+    }
+    
+    .containerlpp
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 20px;
+        font-size: 30px;
+        margin-top: 20px; 
+        padding: 25px 50px 10px 25px;
+    }
+    
+    .starlpp
+    {
+        padding-bottom: 10px;
+    }
+    
+    #titreactivite
+    {
+        padding-top: 80px;
+        font-size: 30px;
+        align-items: center;
+        padding-left: 50px;
+        width: 300px;
+    }
+
+    #activite a
+    {
+        text-decoration: none;
+        color: black;
+    }
+    
+    #activite
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .cardactivite 
+    {
+        display: flex;
+        flex-direction: column;
+        width: 668px;
+        height: 380px;
+        box-shadow: 0 4px 8px 0 #F2F2F2;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .imgactivite
+    {
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px ;
+        width: 324px;
+        height: 280px;
+    }
+    
+    .container 
+    {
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    
+    
+    footer a
+    {
+        text-decoration: none;
+        color: black;
+    }
+    
+    footer
+    {
+        font-size: 30px;
+        height: 801px;
+        margin-top: 50px;
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 45px 327px 58px 50px;
+    }
+    
+    footer ul
+    {
+        padding-left: 0;
+        list-style-type: none;
+    }
 }
