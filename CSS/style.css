@@ -13,9 +13,7 @@ body
 #containerAll
 {
     font-family: 'Raleway';
-    width: 1400px;
-    padding-left: 50px;
-    padding-right: 50px;
+    width: 1330px;
 }
 
 #imgTitre
@@ -192,7 +190,7 @@ button:hover
 
 #filtres
 {
-    width: 950px;
+    width: 80%;
     font-weight: 900;
     align-items: center;
     margin-top: 30px;
@@ -232,21 +230,22 @@ button
 
 #titreh
 {
-    display: flex;
-    align-items: flex-start;
-    width: 800px;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
 }
 
 #marseille
 {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0px 30px 0px 30px;
     border-radius: 20px;
     background-color: #F2F2F2;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 10% 30% 30%;
+    grid-gap: 30px;
     width: 60%;
     height: 626px;
 }
@@ -261,10 +260,9 @@ button
 {
     font-size: 15px;
     border-radius: 20px;
-    width: 246px;
+    width: 100%;
     height: 199px;
     background-color: white;
-    margin: 20px 0px 20px 0px;
     box-shadow: 0 4px 8px 0 #d1d1d1;
 
 }
@@ -272,8 +270,8 @@ button
 .imgh
 {
     object-fit: cover;
-    padding: 5px 5px 0px 5px;
-    width: 236px;
+    margin: 5px 5px 0px 5px;
+    width: 97%;
     height: 124px;
     border-radius: 20px 20px 0px 0px ;
 }
@@ -304,14 +302,15 @@ button
 
 #lpp
 {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column ;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 30% 30% 30%;
     align-items: center;
+    justify-content: center;
     width: 30%;
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding-bottom: 50px;
+    padding: 0px 30px 0px 30px;
 }
 
 #ilpp
@@ -326,7 +325,7 @@ button
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .imglpp
@@ -343,7 +342,7 @@ button
     align-content: center;
     border-radius: 20px;
     background-color: white;
-    width: 343px;
+    width: 100%;
     height: 144px;
     display: flex;
     flex-direction: row;
@@ -389,7 +388,7 @@ button
 {
     display: flex;
     flex-direction: column;
-    width: 302px;
+    width: 300px;
     height: 445px;
     box-shadow: 0 4px 8px 0 #F2F2F2;
     border-radius: 20px;
@@ -449,71 +448,48 @@ footer ul
 
     #containerAll
     {
-        width: 1024px;
+        width: 1330px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #bloc
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #marseille
+    {
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 50px;
+        padding: 0px 0px 0px 0px;
     }
 
 
-
-
-
-
+    #titrelpp
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-gap: 20px;
+    justify-content: space-between;
+}
     #lpp
     {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        padding: 10px 0px 20px 0px;
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 30% 70%;
+        column-gap: 20px;
+        width: 100%;
     }
-
-    .cardlpp
+    .cardactivite
     {
-        margin-left: 15px;
-        width: 90%;
-        margin-right: 0px;
-        margin-top: 15px;
+        width: 250px
     }
-
-
-    .containerlpp
-    {
-        margin-left: 10px;
-        margin-right: 0px;
-    }
-
-
-    .cardh
-    {
-        width: 30%;
-        height: 200px;
-    }
-
-    .imgh
-    {
-        width: 95%;
-    }
-
-
-    .cardactivite 
-    {
-        display: flex;
-        flex-direction: column;
-        width: 200px;
-        height: 350px;
-        box-shadow: 0 4px 8px 0 #F2F2F2;
-        border-radius: 20px;
-    }
-    
-    .imgactivite
-    {
-        object-fit: cover;
-        border-radius: 20px 20px 0px 0px ;
-        height: 383.25px;
-    }
-    
 }
-
-
-
 
 
 
@@ -523,22 +499,21 @@ footer ul
     #containerAll
     {
         width: 991px;
-        padding-left: 70px;
-        padding-right: 70px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
     #titreh
     {
         display: flex;
         align-items: flex-start;
-        width: 800px;
     }
     
     #bloc
     {
         display: flex;
         flex-direction: column;
-        width: 910px;
+        width: 100%;
     }
 
 
@@ -550,20 +525,11 @@ footer ul
 
 
     #lpp
-    {
-        padding-left: 40px;
-        padding-right: 40px;
-        margin-top: 30px;
-        margin-bottom: 50px;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row ;
-        flex-wrap: wrap;
-        align-items: center;
-        width: 100%;
-        background-color: #F2F2F2;
-        border-radius: 20px;
-        padding-bottom: 50px;
+    {    
+            grid-template-columns: 30% 30% 30%;
+            grid-template-rows: 30% 70%;
+            column-gap: 20px;
+            width: 100%;
     }
     
     #ilpp
@@ -574,29 +540,21 @@ footer ul
     
 
     #titrelpp
-    {
-        width: 880px;
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        justify-content: space-between;
-    }
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-gap: 20px;
+    justify-content: space-between;
+}
     
-    .imglpp
-    {
-        object-fit: cover;
-        padding: 5px 0px 5px 5px;
-        width: 96px;
-        height: 134px;
-        border-radius: 20px 0px 0px 20px;
-    }
     
     .cardlpp
     {
         align-content: center;
         border-radius: 20px;
         background-color: white;
-        width: 252px;
         height: 144px;
         display: flex;
         flex-direction: row;
@@ -630,8 +588,8 @@ footer ul
     {
         display: flex;
         flex-direction: column;
-        width: 200px;
-        height: 320px;
+        width: 230px;
+        height: 445px;
         box-shadow: 0 4px 8px 0 #F2F2F2;
         border-radius: 20px;
     }
@@ -640,7 +598,7 @@ footer ul
     {
         object-fit: cover;
         border-radius: 20px 20px 0px 0px ;
-        height: 270px;
+        height: 383.25px;
     }
     }
 
@@ -704,9 +662,9 @@ footer ul
     
     nav
     {
+        width: 100%;
         display: flex;
         justify-content: space-between;
-        align-items: flex-end;
     }
     
     nav ul
@@ -724,7 +682,7 @@ footer ul
         border-top: white solid 3px;
         display: flex;
         justify-content: center;
-        width: 384px;
+        width: 200px;
         font-size: 30px;
         padding: 0px 0px 23px 0px;
         color: black;
@@ -742,16 +700,16 @@ footer ul
     
     #location
     {
+        width: 100%;
         border-top-width: 0px;
         border-radius: 15px 15px 15px 15px;
         margin-top: 60px;
         display: flex;
         flex-direction: row;
         height: 82px;
-        width: 668px;
+        width: 80%;
         align-items: center;
         justify-content: center;
-        margin-left: 50px;
 
     }
     
@@ -759,7 +717,7 @@ footer ul
     {
         height: 94px;
         border: 1px solid #F2F2F2;
-        width: 475px;
+        width: 60%;
         font-weight: 850;
         font-size: 30px;
         padding-left: 30px;
@@ -870,7 +828,6 @@ footer ul
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         margin-bottom: 50px;
         margin-left: 0px;
     }
@@ -887,10 +844,10 @@ footer ul
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         width: 100%;
-        height: 2350px;
+        height: 2500px;
     }
 
     #titreh
@@ -898,21 +855,14 @@ footer ul
         font-size: 30px;
         display: flex;
         justify-content: flex-start;
-        width: 718px;
-        padding-left: 50px;
-    }
-    
-    .cardh a
-    {
-        text-decoration: none;
-        color: black;
+        width: 90%;
     }
     
     .cardh
     {
         font-size: 15px;
         border-radius: 20px;
-        width: 668px;
+        width: 90%;
         height: 350px;
         background-color: white;
         margin: 0px 0px 0px 0px;
@@ -924,7 +874,7 @@ footer ul
     {
         object-fit: cover;
         padding: 5px 5px 0px 5px;
-        width: 658px;
+        width: 99%;
         height: 220px;
         border-radius: 20px 20px 0px 0px ;
     }
@@ -944,9 +894,6 @@ footer ul
     #aff
     {
         display: none;
-        margin-bottom: 46px;
-        font-size: 18px;
-        width: 800px;
     }
     
     #lpp a
@@ -960,7 +907,7 @@ footer ul
         margin-top: 30px;
         padding: 0px 0px 47px 0px;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-direction: column ;
         align-items: center;
         width: 100%;
@@ -980,7 +927,7 @@ footer ul
     {
         font-size: 30px;
         padding-left: 50px;
-        width: 688px;
+        width: 90%;
         display: flex;
         flex-direction: row;
         align-content: center;
@@ -992,7 +939,7 @@ footer ul
     {
         object-fit: cover;
         padding: 5px 0px 5px 5px;
-        width: 250px;
+        width: 40%;
         height: 278px;
         border-radius: 20px 0px 0px 20px;
     }
@@ -1003,7 +950,7 @@ footer ul
         align-content: center;
         border-radius: 20px;
         background-color: white;
-        width: 668px;
+        width: 90%;
         height: 288px;
         display: flex;
         flex-direction: row;
@@ -1021,10 +968,9 @@ footer ul
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin-left: 20px;
         font-size: 30px;
         margin-top: 20px; 
-        padding: 25px 50px 10px 25px;
+        padding: 25px 0px 10px 0px;
     }
     
     .starlpp
@@ -1036,9 +982,7 @@ footer ul
     {
         padding-top: 80px;
         font-size: 30px;
-        align-items: center;
-        padding-left: 50px;
-        width: 300px;
+        width: 90%;
     }
 
     #activite a
@@ -1052,15 +996,16 @@ footer ul
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
+        height: 3000px;
     }
     
     .cardactivite 
     {
         display: flex;
         flex-direction: column;
-        width: 668px;
+        width: 100%;
         height: 380px;
         box-shadow: 0 4px 8px 0 #F2F2F2;
         border-radius: 20px;
@@ -1071,8 +1016,7 @@ footer ul
     {
         object-fit: cover;
         border-radius: 20px 20px 0px 0px ;
-        width: 324px;
-        height: 280px;
+        width: 98%;
     }
     
     .container 
