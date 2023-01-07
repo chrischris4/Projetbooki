@@ -271,7 +271,7 @@ button
 {
     object-fit: cover;
     margin: 5px 5px 0px 5px;
-    width: 97%;
+    width: 95%;
     height: 124px;
     border-radius: 20px 20px 0px 0px ;
 }
@@ -291,7 +291,7 @@ button
 {
     margin-bottom: 46px;
     font-size: 18px;
-    width: 800px;
+    width: 100%;
 }
 
 #lpp a
@@ -362,7 +362,7 @@ button
     justify-content: space-between;
     margin-left: 10px;
     font-size: 15px;
-    margin-top: 20px; 
+    margin-top: 10px; 
 }
 
 .starlpp
@@ -379,8 +379,10 @@ button
 #activite
 {
     width: 100%;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    column-gap: 2rem;
+    margin: 4rem 0;
     justify-content: space-between;
 }
 
@@ -388,7 +390,7 @@ button
 {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 100%;
     height: 445px;
     box-shadow: 0 4px 8px 0 #F2F2F2;
     border-radius: 20px;
@@ -398,6 +400,7 @@ button
 {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px ;
+    width: 100%;
     height: 383.25px;
 }
 
@@ -450,13 +453,18 @@ footer ul
     {
         width: 1330px;
         padding-left: 20px;
-        padding-right: 20px;
     }
 
     #bloc
     {
         display: flex;
         flex-direction: column;
+    }
+
+
+    .imgh
+    {
+        width: 97%;
     }
 
     #marseille
@@ -485,10 +493,6 @@ footer ul
         column-gap: 20px;
         width: 100%;
     }
-    .cardactivite
-    {
-        width: 250px
-    }
 }
 
 
@@ -500,7 +504,6 @@ footer ul
     {
         width: 991px;
         padding-left: 20px;
-        padding-right: 20px;
     }
     
     #titreh
@@ -548,57 +551,12 @@ footer ul
     grid-gap: 20px;
     justify-content: space-between;
 }
-    
-    
-    .cardlpp
+
+
+    footer
     {
-        align-content: center;
-        border-radius: 20px;
-        background-color: white;
-        height: 144px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        box-shadow: 0 4px 8px 0 #D1D1D1;
-    }
-    
-    .titreCardLpp
-    {
-        line-height: 15px;
-    }
-    
-    .containerlpp
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-left: 20px;
-        padding-right: 20px;
-        font-size: 15px;
-        margin-top: 15px; 
-    }
-    
-    .starlpp
-    {
-        padding-bottom: 10px;
-    }
-    
-    
-    .cardactivite 
-    {
-        display: flex;
-        flex-direction: column;
-        width: 230px;
-        height: 445px;
-        box-shadow: 0 4px 8px 0 #F2F2F2;
-        border-radius: 20px;
-    }
-    
-    .imgactivite
-    {
-        object-fit: cover;
-        border-radius: 20px 20px 0px 0px ;
-        height: 383.25px;
+        padding: 45px 150px 58px 70px;
+
     }
     }
 
