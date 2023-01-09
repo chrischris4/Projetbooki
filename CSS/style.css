@@ -85,6 +85,11 @@ i
     font-size: 11px;
 }
 
+.star
+{
+    letter-spacing: -2px;
+}
+
 #info
 {
     padding: 4px 8px 4px 8px;
@@ -216,7 +221,7 @@ button
     height: 50px;
     border-radius: 30px;
     border-style: solid;
-    border-color: #F2F2F2;
+    border-color: #D9D9D9;
     background-color: white;
 }
 
@@ -368,6 +373,7 @@ button
 .starlpp
 {
     padding-bottom: 10px;
+    letter-spacing: -2px;
 }
 
 #activite a
@@ -419,6 +425,7 @@ footer a
 
 footer
 {
+    font-weight: 450;
     height: 225px;
     margin-top: 50px;
     background-color: #F2F2F2;
@@ -453,6 +460,13 @@ footer ul
     {
         width: 1330px;
         padding-left: 20px;
+    }
+
+
+
+    #filtres
+    {
+        width: 90%;
     }
 
     #bloc
@@ -571,6 +585,7 @@ footer ul
 
     body
     {
+        margin-right: 0px;
         margin-left: 0px;
         margin-top: 0px;
         font-family: 'Raleway';
@@ -586,13 +601,39 @@ footer ul
     
     .fa-star
     {
-        font-size: 18px;
+        font-size: 20px;
+    }
+
+
+    .fa-money-bill-wave
+    {
+        padding-left: 10px;
+        font-size: 28px;
     }
     
+    .fa-person
+    {
+        padding-left: 10px;
+        font-size: 32px;
+    }
+    
+    .fa-heart
+    {
+        padding-left: 10px;
+        font-size: 28px;
+    }
+    
+    .fa-dog
+    {
+        padding-left: 10px;
+        font-size: 28px;
+    }
+
+
     h1
     {
         padding-left: 50px;
-        font-size: 30px;
+        font-size: 50px;
         font-weight: 900;
     }
     
@@ -678,7 +719,7 @@ footer ul
         width: 100%;
         border-top-width: 0px;
         border-radius: 15px 15px 15px 15px;
-        margin-top: 60px;
+        margin-top: 80px;
         display: flex;
         flex-direction: row;
         height: 82px;
@@ -723,8 +764,8 @@ footer ul
     
     #titrefiltres
     {
-        font-size: 30px;
         padding-left: 50px;
+        font-size: 30px;
         display: flex;
         align-items: flex-start;
         width: 100%;
@@ -740,11 +781,12 @@ footer ul
 
     #filtres
     {
+        line-height: 1px;
         width: 100%;
         height: 300px;
         font-weight: 900;
         align-items: center;
-        margin-top: 30px;
+        margin-top: 50px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -753,11 +795,13 @@ footer ul
     
     .pdevice
     {
+        margin-right: 50px;
         display: flex;
         align-items: flex-start;
         margin-left: 50px;
-        font-size: 35px;
+        font-size: 30px;
         font-weight: 450;
+        margin-bottom: 20px;
     }
     
     #rechercher
@@ -786,17 +830,19 @@ footer ul
 
     button
     {
-        width: 37%;
+        width: 45%;
         font-family: 'Raleway';
-        font-size: 20px;
-        display: flex;
+        font-size: 22px;
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 100%;
+        text-align: left;
         align-items: center;
-        justify-content: center;
-        padding: 4px 0px 4px 0px;
-        height: 75px;
+        padding: 0px 10px 0px 10px;
+        height: 80px;
         border-radius: 50px;
         border-style: solid;
-        border-color: #F2F2F2;
+        border-color: #d9d9d9;
         background-color: white;
     }
     
@@ -821,7 +867,7 @@ footer ul
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 2500px;
+        height: 2750px;
     }
 
     #titreh
@@ -837,7 +883,7 @@ footer ul
         font-size: 15px;
         border-radius: 20px;
         width: 90%;
-        height: 350px;
+        height: 400px;
         background-color: white;
         margin: 0px 0px 0px 0px;
         box-shadow: 0 4px 8px 0 #d1d1d1;
@@ -848,15 +894,15 @@ footer ul
     {
         object-fit: cover;
         padding: 5px 5px 0px 5px;
-        width: 99%;
-        height: 220px;
+        width: 97%;
+        height: 250px;
         border-radius: 20px 20px 0px 0px ;
     }
     
     .containerh
     {
-        font-size: 25px;
-        padding-top: 20px;
+        font-size: 30px;
+        padding-top: 25px;
         line-height: 5px;
         display: flex;
         flex-direction: column;
@@ -942,7 +988,7 @@ footer ul
     {
         padding-top: 80px;
         font-size: 30px;
-        width: 80%;
+        width: 50%;
         padding-left: 50px;
     }
 
@@ -951,12 +997,13 @@ footer ul
         width: 100%;
         display: grid;
         grid-template-columns: 90%;
-        row-gap: 10px;
+        row-gap: 30px;
         justify-content: center;
     }
     
     .cardactivite 
     {
+        border-radius: 20px;
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -967,12 +1014,13 @@ footer ul
     {
         object-fit: cover;
         border-radius: 20px 20px 0px 0px ;
-        height: 300px;
+        height: 75%;
         width: 98%;
     }
     
     .container 
     {
+        height: 25%;
         font-size: 30px;
         padding-left: 20px;
     }
@@ -981,12 +1029,26 @@ footer ul
     footer
     {
         font-size: 30px;
-        height: 801px;
-        margin-top: 50px;
+        height: 1001px;
+        margin-top: 200px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         padding: 45px 0px 58px 50px;
     }
     
+    #nos
+    {
+        line-height: 80px;
+    }
+    
+    #assistance
+    {
+        line-height: 80px;
+    }
+    #apropos
+    {
+        line-height: 80px;
+    }
+
 }
